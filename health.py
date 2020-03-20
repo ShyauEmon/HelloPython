@@ -5,14 +5,12 @@ hight = float(input("請輸入身高/公分:"))
 kg = float(input("請輸入體重/kg:"))
 bmi = kg / ((hight/100) ** 2)
 
-
 name_name = "姓名:"
 age_age = "年齡:"
 hight_hight = "身高:"
 kg_kg = "體重:"
 bmi_bmi = "BMI:"
 
-#格式化輸出
 print("%s%s"%(name_name,name))
 print("%s%.0f歲"%(age_age,age))
 print("%s%.0f公分"%(hight_hight,hight))
