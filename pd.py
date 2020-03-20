@@ -8,7 +8,6 @@ while a > 0:
     elif pd != pd_01:
         print("密碼錯誤剩餘嘗試%d次" % (a-1))
         a -= 1
-        continue
 
 if a == 0:
     print("密碼連續錯誤請15分後再試")
