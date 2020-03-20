@@ -32,7 +32,6 @@ elif d_score >=0 and  d_score <60:
     print("理化%.1f分不及格"%d_score)
 else:
     print("理化分數輸入錯誤")
-
 #計算科目總共幾個及格
 if a_score >= 60:
     abcd_score = abcd_score + 1
@@ -50,5 +49,4 @@ if d_score >= 60:
     abcd_score = abcd_score + 1
 else:
     dcba_score = dcba_score + 1
-
 print("總共考了%d科，%d科目及格，%d科目不及格" %((abcd_score + dcba_score),abcd_score,dcba_score))
