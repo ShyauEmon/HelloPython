@@ -12,3 +12,5 @@ elif county == "美國":
         print("不能考駕照")
     else:
         print("妳可以考駕照")
+else:
+    print("目前不支援此國家判定")
