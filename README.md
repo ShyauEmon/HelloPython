@@ -16,4 +16,8 @@
 
 #Lottery第一次嘗試電腦選號大樂透
 
+#Lotty_win嘗試使用list清單方式寫樂透電腦選號
+
+#Lotty_final嘗試使用random.sample方式寫樂透電腦選號
+
 #Lottery_win 使用LIST方式製作大樂透且可以彈性選擇抽出號碼跟總球數
