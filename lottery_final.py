@@ -3,8 +3,8 @@ lottery = []
 i = 0
 while True:
     groups = input("請輸入要抽幾組號碼:")  # 此為你想要幾組電腦選號
-    quantity = input("請輸入總球數:")  # 此為你想玩哪總例如:大樂透為為49個號碼就輸入"49"
-    ball = input("請輸入抽出幾球:")  # 此為你玩的彩卷頭獎號碼為幾組中例如大樂透為"6"個號碼就輸入6
+    quantity = input("請輸入總球數:")  # 玩的彩卷有幾號例如:大樂透為1~49個號碼就輸入49
+    ball = input("請輸入抽出幾球:")  # # 玩的彩卷會出幾個號碼例如:大樂透選6個號碼就輸入6
     try:
         groups = int(groups)
         quantity = int(quantity)
