@@ -26,39 +26,78 @@ while True:
                 while i < groups:
                     lottery = (random.sample(range(1, quantity), k=ball))
                     num = sorted(lottery)
-                    print("發財號碼為:%02d,%02d,%02d,%02d,%02d,%02d"% (lottery[0], lottery[1], lottery[2], lottery[3], lottery[4], lottery[5]), end="")
-                    print("由大到小為:%02d,%02d,%02d,%02d,%02d,%02d"% (num[0], num[1], num[2], num[3], num[4], num[5]))
+                    l =[]
+                    for o in lottery:
+                        t = "%02d" % o
+                        l.append(t)
+                    m = []
+                    for n in num:
+                        u = "%02d" % n
+                        m.append(u)
+                    print("發財號碼為:" + ",".join(l), end="")
+                    print("由小到大為:" + ",".join(m))
                     i += 1
             elif quantity == 38 and ball == 6:
                 print("您玩的是威力彩第一區6個號碼全中+第二區01~08選一號中獎即為頭獎")
                 while i < groups:
                     lottery = (random.sample(range(1, quantity), k=ball))
                     num = sorted(lottery)
-                    print("發財號碼為:%02d,%02d,%02d,%02d,%02d,%02d"% (lottery[0], lottery[1], lottery[2], lottery[3], lottery[4], lottery[5]), end="")
-                    print("由大到小為:%02d,%02d,%02d,%02d,%02d,%02d"% (num[0], num[1], num[2], num[3], num[4], num[5]))
+                    l =[]
+                    for o in lottery:
+                        t = "%02d" % o
+                        l.append(t)
+                    m = []
+                    for n in num:
+                        u = "%02d" % n
+                        m.append(u)
+                    print("發財號碼為:" + ",".join(l), end="")
+                    print("由小到大為:" + ",".join(m))
                     i += 1
             elif quantity == 39 and ball == 5:
                 print("您玩的是金彩539，5個號碼全中獎即為頭獎")
                 while i < groups:
                     lottery = (random.sample(range(1, quantity), k=ball))
                     num = sorted(lottery)
-                    print("發財號碼為:%02d,%02d,%02d,%02d,%02d"% (lottery[0], lottery[1], lottery[2], lottery[3], lottery[4]), end="")
-                    print("由大到小為:%02d,%02d,%02d,%02d,%02d"% (num[0], num[1], num[2], num[3], num[4]))
+                    l =[]
+                    for o in lottery:
+                        t = "%02d" % o
+                        l.append(t)
+                    m = []
+                    for n in num:
+                        u = "%02d" % n
+                        m.append(u)
+                    print("發財號碼為:" + ",".join(l), end="")
+                    print("由小到大為:" + ",".join(m))
                     i += 1
             elif quantity == 24 and ball == 12:
-                print("您玩的是雙贏彩12號碼全中獎或全不中獎即為頭獎")
                 while i < groups:
                     lottery = (random.sample(range(1, quantity), k=ball))
                     num = sorted(lottery)
-                    print("發財號碼為:%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d"% (lottery[0], lottery[1], lottery[2], lottery[3], lottery[4], lottery[5],lottery[6], lottery[7], lottery[8], lottery[9], lottery[10], lottery[11]), end="")
-                    print("由大到小為:%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d,%02d"% (num[0], num[1], num[2], num[3], num[4], num[5], num[6], num[7], num[8], num[9], num[10], num[11]))
+                    l =[]
+                    for o in lottery:
+                        t = "%02d" % o
+                        l.append(t)
+                    m = []
+                    for n in num:
+                        u = "%02d" % n
+                        m.append(u)
+                    print("發財號碼為:" + ",".join(l), end="")
+                    print("由小到大為:" + ",".join(m))
                     i += 1
             else:
                 while i < groups:
                     lottery = (random.sample(range(1, quantity), k=ball))
                     num = sorted(lottery)
-                    print("發財號碼為:", lottery, end="")
-                    print("由小到大排列為:", num)
+                    l =[]
+                    for o in lottery:
+                        t = "%02d" % o
+                        l.append(t)
+                    m = []
+                    for n in num:
+                        u = "%02d" % n
+                        m.append(u)
+                    print("發財號碼為:" + ",".join(l), end="")
+                    print("由小到大為:" + ",".join(m))
                     i += 1
     elif q == "2":
         break
